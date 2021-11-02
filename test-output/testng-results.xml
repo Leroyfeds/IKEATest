@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-31T00:19:41 GST" name="IKEA Test" finished-at="2021-10-31T00:20:44 GST" duration-ms="63310">
+    <groups>
+    </groups>
+    <test started-at="2021-10-31T00:19:41 GST" name="IKEA AddRemoveProductTest Test" finished-at="2021-10-31T00:20:44 GST" duration-ms="63310">
+      <class name="com.qa.testcases.AddRemoveProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:19:41 GST" name="setup" finished-at="2021-10-31T00:19:57 GST" duration-ms="16359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="compareproductnameproductlistandproductdetails(java.lang.String)[pri:1, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:19:59 GST" name="compareproductnameproductlistandproductdetails" description="To compare the product name on Product List and Product screens." data-provider="getikeatestdata" finished-at="2021-10-31T00:20:08 GST" duration-ms="9077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Table]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareproductnameproductlistandproductdetails -->
+        <test-method signature="compareproductpriceproductlistandproductdetails()[pri:2, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:20:08 GST" name="compareproductpriceproductlistandproductdetails" description="To compare the product price on Product List and Product screens." finished-at="2021-10-31T00:20:12 GST" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareproductpriceproductlistandproductdetails -->
+        <test-method signature="productdetailsincreaseproductqty()[pri:3, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:20:12 GST" name="productdetailsincreaseproductqty" description="To verify that the user can increase the product quantity of a product on product details screen." finished-at="2021-10-31T00:20:25 GST" duration-ms="12554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productdetailsincreaseproductqty -->
+        <test-method signature="verifyhomescreencartbuttonquantity()[pri:4, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:20:25 GST" name="verifyhomescreencartbuttonquantity" description="To verify whether the Cart quantity on Home screen increments when the user adds a product to the cart." finished-at="2021-10-31T00:20:30 GST" duration-ms="5132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomescreencartbuttonquantity -->
+        <test-method signature="verifynavigationtocheckout()[pri:5, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:20:30 GST" name="verifynavigationtocheckout" description="To verify whether the user navigates to the checkout screen on clicking on the Proceed to Checkout button." finished-at="2021-10-31T00:20:35 GST" duration-ms="5537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynavigationtocheckout -->
+        <test-method signature="verifyremoveproductfrombasket()[pri:6, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:20:35 GST" name="verifyremoveproductfrombasket" description="To verify whether the user can remove product from the basket." finished-at="2021-10-31T00:20:43 GST" duration-ms="7561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyremoveproductfrombasket -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.AddRemoveProductTest@4cc451f2]" started-at="2021-10-31T00:20:43 GST" name="teardown" finished-at="2021-10-31T00:20:44 GST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.AddRemoveProductTest -->
+    </test> <!-- IKEA AddRemoveProductTest Test -->
+  </suite> <!-- IKEA Test -->
+</testng-results>
